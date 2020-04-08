@@ -45,3 +45,4 @@ def play(board)
      if turn ==9
        play(board)
     end
+end
