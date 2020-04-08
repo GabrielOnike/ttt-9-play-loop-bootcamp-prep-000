@@ -40,6 +40,6 @@ def play(board)
   turn = 1
    if turn(board) <=9
      puts "turn(board)"
-       turn(board) += 1
+       turn += 1
      end
 end
