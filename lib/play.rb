@@ -43,4 +43,8 @@ def play(board)
        turn += 1
     end
     puts "Game Over"
+    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    puts "Welcome to Tic Tac Toe!"
+    display_board(board)
+    play(board)
 end
