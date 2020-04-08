@@ -36,3 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  turn(board) = 1
+   if turn(board) <=9
+     puts "turn(board)"
+       turn(board) += 1
+     end
+end
